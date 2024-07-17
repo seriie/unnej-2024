@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/aboutStyle.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/loading.css">
     <title>Document</title>
 </head>
@@ -45,12 +45,12 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis quasi itaque dicta provident minima, voluptatem nulla hic esse commodi est non magnam quibusdam sapiente repellendus impedit libero totam odio?</p>
                 </div>
                 <div class="image">
-                    <img src="images/CalculatorProject.png" alt="image">
+                    <img src="images/calculator.png" alt="image">
                 </div>
             </div>
             <div class="middle">
                 <div class="image">
-                    <img src="images/PasswordGeneratorProject.png" alt="image">
+                    <img src="images/password_generator.png" alt="image">
                 </div>
                 <div class="text">
                     <h1>Ada apa aja di konser VINDO?</h1>
@@ -63,7 +63,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis quasi itaque dicta provident minima, voluptatem nulla hic esse commodi est non magnam quibusdam sapiente repellendus impedit libero totam odio?</p>
                 </div>
                 <div class="image">
-                    <img src="images/ToDoListProject.png" alt="image">
+                    <img src="images/todolist_project.png" alt="image">
                 </div>
             </div>
         </div>
