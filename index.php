@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<header>
+    <div class="left">
+        <div class="logo">
+            [LOGO]
+        </div>
+    </div>
+    <div class="right">
+        <div class="action">
+            <ul>
+                <li><a class="toHome" href="index.html">Home</a></li>
+                <li><a class="toAbout" href="about.html">About</a></li>
+                <li><a class="toGallery" href="gallery.html">Gallery</a></li>
+                <li><a class="toTicket" href="ticket.html">Ticket</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <p>Login</p>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="wrapper">
+        <div class="circle">
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+            <div class="circle5"></div>
+        </div>
+        <div class="vindo">VINDO</div>
+    </div>
+    <div class="home">
+        <div class="content">
+            <div class="logo">[LOGO]</div>
+            <div class="text">
+                <h1>Selamat Datang di Konser VINDO</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quia placeat facere molestiae quae. Voluptate error blanditiis magnam ipsum perspiciatis!</p>
+            </div>
+            <div class="button">Beli Tiket</div>
+            <div class="wrap"></div>
+        </div>
+    </div>
+    <footer><p>&copy; Copyright 2024 Letris Indonesia 2</p></footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

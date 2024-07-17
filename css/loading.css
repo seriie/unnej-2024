@@ -1,0 +1,134 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    width: 100%;
+    background-color: #E2E8F0;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    animation: scale 2s ease;
+}
+
+.wrapper.active {
+    display: none;
+}
+
+.wrapper .vindo {
+    position: absolute;
+    top: 450px;
+    color: #020617;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wrapper .circle {
+    display: flex;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes rotateMirror {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.wrapper .circle1 {
+    inset: 0;
+    position: absolute;
+    width: 50px;
+    margin: auto;
+    height: 50px;
+    border-top: 3px solid #0EA5E9;
+    border-bottom: 3px solid #0EA5E9;
+    border-radius: 50px;
+    animation: rotate 1.5s linear infinite;
+}
+
+.wrapper .circle2 {
+    position: absolute;
+    inset: 0;
+    width: 80px;
+    margin: auto;
+    height: 80px;
+    border-top: 3px solid #0EA5E9;
+    border-bottom: 3px solid #0EA5E9;
+    border-radius: 50px;
+    animation: rotateMirror 1.5s linear infinite;
+}
+
+.wrapper .circle3 {
+    position: absolute;
+    inset: 0;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-top: 3px solid #0EA5E9;
+    border-bottom: 3px solid #0EA5E9;
+    border-radius: 50px;
+    animation: rotate 1.5s linear infinite;
+}
+
+.wrapper .circle4 {
+    position: absolute;
+    inset: 0;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-top: 3px solid #0EA5E9;
+    border-bottom: 3px solid #0EA5E9;
+    border-radius: 50px;
+    animation: rotateMirror 1.5s linear infinite;
+}
+
+.wrapper .circle5 {
+    position: absolute;
+    inset: 0;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-top: 3px solid #0EA5E9;
+    border-bottom: 3px solid #0EA5E9;
+    border-radius: 50px;
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes square {
+    0% {
+        transform: rotate(0deg);
+        }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes squareMirror {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}

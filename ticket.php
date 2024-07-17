@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ticketStyle.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <title>Document</title>
+</head>
+<header>
+    <div class="left">
+        <div class="logo">
+            [LOGO]
+        </div>
+    </div>
+    <div class="right">
+        <div class="action">
+            <ul>
+                <li><a class="toHome" href="index.html">Home</a></li>
+                <li><a class="toAbout" href="about.html">About</a></li>
+                <li><a class="toGallery" href="gallery.html">Gallery</a></li>
+                <li><a class="toTicket" href="ticket.html">Ticket</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <p>Login</p>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="wrapper">
+        <div class="circle">
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+            <div class="circle5"></div>
+        </div>
+        <div class="vindo">VINDO</div>
+    </div>
+    <div class="ticket">
+        <div class="ticket">
+            <h1>ENTRY TICKET</h1>
+            <div class="container">
+                <div class="card card1">
+                    <div class="top">
+                        <div class="logo">[LOGO]</div>
+                        <div class="text">
+                            <h2>General Ticket</h2>
+                            <p>16 left</p>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <li>GENERAL ACCESS</li>
+                        <li>GENERAL ACCESS</li>
+                    </div>
+                    <div class="bottom">
+                        <div class="price">Rp.200.000</div>
+                        <button>GET TICKET</button>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="top">
+                        <div class="logo">[LOGO]</div>
+                        <div class="text">
+                            <h2>General Ticket</h2>
+                            <p>16 left</p>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <li>GENERAL ACCESS</li>
+                        <li>GENERAL ACCESS</li>
+                    </div>
+                    <div class="bottom">
+                        <div class="price">Rp.200.000</div>
+                        <button>GET TICKET</button>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <div class="top">
+                        <div class="logo">[LOGO]</div>
+                        <div class="text">
+                            <h2>General Ticket</h2>
+                            <p>16 left</p>
+                        </div>
+                    </div>
+                    <div class="middle">
+                        <li>GENERAL ACCESS</li>
+                        <li>GENERAL ACCESS</li>
+                    </div>
+                    <div class="bottom">
+                        <div class="price">Rp.200.000</div>
+                        <button>GET TICKET</button>
+                    </div>
+                </div>
+            </div>
+            <div class="table">
+                <div class="text">
+                    <h1>Owned Tickets</h1>
+                    <button>Hide</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Status</th>
+                            <th>Created At</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-pending">PENDING</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td><button class="pay-button">Pay</button></td>
+                        </tr>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-paid">PAID</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-paid">PAID</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-paid">PAID</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-paid">PAID</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-paid">PAID</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-paid">PAID</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>ABCD-EFGH-IJKL</td>
+                            <td class="status-paid">PAID</td>
+                            <td>13 July, 2024 - 03:44 PM</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer><p>&copy; Copyright 2024 Letris Indonesia 2</p></footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

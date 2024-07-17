@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #F8FAFC;
+}
+
+header {
+    background: #38BDF8;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 3px 5px -1px #334155;
+}
+
+header .left .logo {
+    padding: 30px 120px;
+    background-color: #f0f0f0;
+    margin: 20px 0 0 20px;
+}
+
+header .right {
+    display: flex;
+    width: 486px;
+    height: 60px;
+    gap: 50px;
+    padding: 0 5px;
+}
+
+header .right .action {
+    height: 0;
+    margin-top: 30px;
+}
+
+header .right .login {
+    margin-top: 15px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header .right .login p {
+    font-weight: 700;
+    color: white;
+}
+
+header .right .action ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    height: 29px;
+}
+
+header .right .action ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+body .ticket {
+    margin: 200px auto 100px auto;
+    width: auto;
+    height: auto;
+}
+
+body .ticket h1 {
+    text-align: center;
+    color: #1E293B;
+}
+
+body .ticket .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+body .ticket .container .card1, body .ticket .container .card2, body .ticket .container .card3 {
+    width: 300px;
+    height: auto;
+    background-color: #38BDF8;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px -10px #0F172A;
+}
+
+body .ticket .container .card1 .top, body .ticket .container .card2 .top, body .ticket .container .card3 .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+body .ticket .container .card1 .top .logo, body .ticket .container .card2 .top .logo, body .ticket .container .card3 .top .logo {
+    background-color: #E0F2FE;
+    height: 20px;
+    padding: 15px;
+}
+
+body .ticket .container .card1 .top .text, body .ticket .container .card2 .top .text, body .ticket .container .card3 .top .text {
+    margin-top: -23px;
+    color: #1E293B;
+}
+
+body .ticket .container .card1 .top .text p, body .ticket .container .card2 .top .text p, body .ticket .container .card3 .top .text p {
+    margin-top: -20px;
+    color: #E0F2FE;
+    text-align: left;
+}
+
+body .ticket .container .card1 .middle, body .ticket .container .card2 .middle, body .ticket .container .card3 .middle {
+    text-align: left;
+    margin-top: 20px;
+}
+
+body .ticket .container .card1 .bottom, body .ticket .container .card2 .bottom, body .ticket .container .card3 .bottom {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+body .ticket .container .card1 .bottom .price, body .ticket .container .card2 .bottom .price, body .ticket .container .card3 .bottom .price {
+    color: #F1F5F9;
+    font-weight: bold;
+}
+
+body .ticket .container .card1 .bottom button, body .ticket .container .card2 .bottom button, body .ticket .container .card3 .bottom button {
+    border: none;
+    background-color: #F1F5F9;
+    color: #0F172A;
+    padding: 3px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.table {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.table .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table .text button {
+    height: 40px;
+    margin-top: 25px;
+    border: none;
+    background-color: #CBD5E1;
+    font-size: large;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto 100px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    text-align: left;
+    border: none;
+    color: #020617;
+}
+th {
+    background-color: #94A3B8;
+}
+
+td {
+    background-color: #E2E8F0;
+}
+
+.status-pending {
+    color: red;
+    font-weight: bold;
+}
+
+.status-paid {
+    color: #16A34A;
+}
+.pay-button {
+    background-color: #22C55E;
+    border: none;
+    color: #F0F9FF;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #0EA5E9;
+    text-align: center;
+    padding: 1px 0;
+    width: 100%;
+    color: #F0F9FF;
+    bottom: 0;
+}
