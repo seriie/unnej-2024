@@ -24,3 +24,9 @@ function showLoading() {
 function hideLoading() {
     document.querySelector('.wrapper').style.display = "none";
 }
+
+document.querySelector('.backToHome').addEventListener('click', backToHome);
+
+function backToHome() {
+    window.location.href = "index.html";
+}
